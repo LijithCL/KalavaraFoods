@@ -1,0 +1,127 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ULLAS BABU\\Desktop\\MetroMart_Test\\MetroMart_Test\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\266ac2491458a46b1ac5dac1b2ac232d\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "289,352,416,481,532,583,675,955,1245",
+                        "endLines": "4,5,6,7,8,9,10,13,19",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "347,411,476,527,578,670,716,1006,1422"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "542,605,669,734,785,836,928,1029,1085",
+                        "endLines": "9,10,11,12,13,14,15,17,21",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "600,664,729,780,831,923,969,1080,1262"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\7b5fbbe0f83259b5fd6022670ab471c4\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,10,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,353,423,497,802,1090,1161,1229",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "348,418,492,568,856,1156,1224,1279"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,974",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1024"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\vishnu\\android\\vishnu\\ei\\mmTest\\mmtest2017122301\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vishnu.benny\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\c4324e95b5b5d4f8dcffc920fef93a48\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "289,352,416,481,532,583,675,955,1245",
+                        "endLines": "4,5,6,7,8,9,10,13,19",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "347,411,476,527,578,670,716,1006,1422"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "542,605,669,734,785,836,928,1029,1085",
+                        "endLines": "9,10,11,12,13,14,15,17,21",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "600,664,729,780,831,923,969,1080,1262"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vishnu.benny\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\d2ff6b1643ec25742f119b5abee8d96d\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,10,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,353,423,497,802,1090,1161,1229",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "348,418,492,568,856,1156,1224,1279"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,974",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1024"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ULLAS BABU\\Desktop\\mm\\MetroMart_Test\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\266ac2491458a46b1ac5dac1b2ac232d\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,13,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "289,352,416,481,532,583,675,955,1245",
+                        "endLines": "4,5,6,7,8,9,10,13,19",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "347,411,476,527,578,670,716,1006,1422"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "542,605,669,734,785,836,928,1029,1085",
+                        "endLines": "9,10,11,12,13,14,15,17,21",
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "600,664,729,780,831,923,969,1080,1262"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\7b5fbbe0f83259b5fd6022670ab471c4\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,10,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "284,353,423,497,802,1090,1161,1229",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "348,418,492,568,856,1156,1224,1279"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,974",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,1024"
+                    }
+                }
+            ]
+        }
+    ]
+}

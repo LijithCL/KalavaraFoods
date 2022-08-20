@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:background="#E0E0E0">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyle_view_tab_account"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/item_list"
+    android:background="#E0E0E0"
+    android:layout_marginBottom="10dp"/>
+
+<RelativeLayout
+    android:id="@+id/item_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/manage_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/manage_account"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/change_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_account"
+        android:gravity="left"
+        android:text="@string/change_password"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:textSize="14dp"/>
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/change_pass"
+        android:gravity="left"
+        android:text="Sign out"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="14dp"/>
+    <TextView
+        android:id="@+id/manage_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logout"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/manage_address"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/add_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_address"
+        android:gravity="left"
+        android:text="@string/add_address"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="14dp" />
+
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/empty_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="invisible"
+    android:layout_centerInParent="true"
+    android:text="Empty Address...!" />
+
+</RelativeLayout>
+
+
+
+
+

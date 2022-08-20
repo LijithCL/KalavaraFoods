@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/options_remainder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:background="@color/white"
+            android:text="@string/manage_account"
+            android:textColor="@color/nav_item_text"
+            android:paddingRight="16dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/change_pass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableEnd="@drawable/ic_rignt_chevron"
+                android:drawableRight="@drawable/ic_rignt_chevron"
+                android:gravity="center_vertical"
+                android:text="@string/change_password"
+                android:textColor="@color/nav_item_text"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/tvChangePhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawableEnd="@drawable/ic_rignt_chevron"
+                android:drawableRight="@drawable/ic_rignt_chevron"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/change_phone_number"
+                android:textColor="@color/nav_item_text" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/text_white_bg"
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_rignt_chevron"
+                android:drawableRight="@drawable/ic_rignt_chevron"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
+                android:text="Sign out"
+                android:textColor="@color/nav_item_text" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Manage Address"
+            android:textColor="@color/nav_item_text"
+            android:paddingStart="16dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="6dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/add_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="@string/add_address"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyle_view_tab_account"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:layout_height="match_parent"
+            android:paddingBottom="2dp"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_accountsFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/options_remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F00"
+        android:gravity="center"
+        android:text="swipe left on address for options"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:visibility="gone" />
+</RelativeLayout>

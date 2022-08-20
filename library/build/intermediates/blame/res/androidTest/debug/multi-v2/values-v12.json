@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ULLAS BABU\\Desktop\\mm\\MetroMart_Test\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v12\\values-v12.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\7b5fbbe0f83259b5fd6022670ab471c4\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "4,7,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "285,509,709,828",
+                        "endLines": "6,9,10,11",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "504,704,823,918"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\vishnu\\android\\vishnu\\ei\\mmTest\\mmtest2017122301\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v12\\values-v12.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vishnu.benny\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\d2ff6b1643ec25742f119b5abee8d96d\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "4,7,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "285,509,709,828",
+                        "endLines": "6,9,10,11",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "504,704,823,918"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ULLAS BABU\\Desktop\\MetroMart_Test\\MetroMart_Test\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v12\\values-v12.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ULLAS BABU\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\7b5fbbe0f83259b5fd6022670ab471c4\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "4,7,10,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "285,509,709,828",
+                        "endLines": "6,9,10,11",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "504,704,823,918"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}

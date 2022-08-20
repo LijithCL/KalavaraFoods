@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/gp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navitem_login"
+            android:icon="@drawable/nav_login_icon"
+            android:title="Login" />
+        <item
+            android:id="@+id/navitem_notification"
+            android:icon="@drawable/nav_notification_icon"
+            android:title="Notification" />
+        <item
+            android:id="@+id/navitem_contactus"
+            android:icon="@drawable/nav_contact_us_icon"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/navitem_rateus"
+            android:icon="@drawable/nav_rate_us_icon"
+            android:title="Rate Us" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/nav_share_icon"
+                    android:title="Share" />
+            </group>
+        </menu>
+    </item>
+</menu>

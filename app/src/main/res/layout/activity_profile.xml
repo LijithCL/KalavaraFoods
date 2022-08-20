@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civProfilePhoto"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/com_facebook_profile_picture_blank_square" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Name" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="example@exmp.com" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnProfileEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="77dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/ic_mode_edit_black_24dp"
+                android:padding="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="77dp" />
+
+            <LinearLayout
+                android:id="@+id/linearLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:visibility="gone"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linear1"
+                android:layout_marginTop="-1dp"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cambay"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:text="Log In"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearOrderHistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/ripple_accent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_history_black_24dp"
+                        android:padding="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:text="Order History"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearWallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/ripple_accent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_account_balance_wallet_black_24dp"
+                        android:padding="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:text="Wallet"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/ripple_accent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_shopping_cart_black_24dp"
+                        android:padding="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:text="Cart"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/ripple_accent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/baseline_markunread_mailbox_black_24"
+                        android:padding="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:text="Address"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearLogout"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:background="@drawable/ripple_accent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:padding="15dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/cambay"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="8dp"
+                        android:text="LogOut"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

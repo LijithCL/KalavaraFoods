@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ei.kalavarafoods.ui.wallet.WalletActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:text="@string/your_wallet_amount"
+                android:textSize="20sp"
+                android:gravity="center_vertical|end" />
+
+            <TextView
+                android:id="@+id/tvWalletAmount"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_weight="2"
+                android:paddingLeft="8dp"
+                android:hint="500"
+                android:textSize="20sp"
+                android:gravity="center_vertical|start"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

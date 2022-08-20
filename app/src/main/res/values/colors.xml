@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e53935</color>
+    <color name="colorPrimaryDark">#ab000d</color>
+    <color name="colorAccent">#00B900</color>
+    <color name="tabsScrollColor">#034914</color>
+    <color name="Button_color">#E53935</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTransparent">#a8ffffff</color>
+    <color name="text_bg_gray">#5c1b1b1b</color>
+    <color name="transparent_gray">#c6a4a4a4</color>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="primary">#E43F3F</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="black">#000000</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="gray_transparent">#60E0E0E0</color>
+    <color name="dark_gray">#D9000000</color>
+    <color name="nav_item_text">#bf000000</color>
+    <color name="nav_subitem_text">#83000000</color>
+    <color name="red">#FF0000</color>
+    <color name="dim_black">#79403f3f</color>
+    <color name="dimmer_black">#2e403f3f</color>
+    <color name="transparent">#004e4e4e</color>
+    <color name="med_gray">#939393</color>
+    <color name="med_gray_transparent">#AE939393</color>
+    <color name="order_received">#f69</color>
+    <color name="order_processed">#f60</color>
+    <color name="order_dispatched">#03f</color>
+    <color name="order_delivered">#093</color>
+    <color name="order_returned">#f00</color>
+</resources>

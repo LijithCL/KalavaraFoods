@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "655262595483",
+    "firebase_url": "https://ei-kalavarafoods-app.firebaseio.com",
+    "project_id": "ei-metromart-app",
+    "storage_bucket": "ei-metromart-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655262595483:android:9fd7c58aecdfe217",
+        "android_client_info": {
+          "package_name": "com.ei.kalavarafoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655262595483-kd8bp2vk5fv1vuck1sr67kjugrj54tdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ei.kalavarafoods",
+            "certificate_hash": "51993ab2cefc71bad827aefb402ea30abe395227"
+          }
+        },
+        {
+          "client_id": "655262595483-tggj16p3jh3sibkt92c78eu9q1259bnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdhtm3gG7lrdE_BGLV18mANneZA_pyF-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655262595483-tggj16p3jh3sibkt92c78eu9q1259bnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

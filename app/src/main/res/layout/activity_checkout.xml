@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    android:weightSum="8">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ckt_amt_card_main"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="7.25"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ckt_amt_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:contentPadding="3dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/ckt_title"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Payable Amount"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/ckt_total_lay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ckt_title"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            android:weightSum="4">
+
+                            <TextView
+                                android:id="@+id/ckt_total"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:paddingBottom="5dp"
+                                android:text="Total"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/tvTotalAmount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="end"
+                                android:padding="5dp"
+                                android:text="₹ 0.00"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ckt_shipping_lay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ckt_total_lay"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            android:paddingBottom="10dp"
+                            android:weightSum="4">
+
+                            <TextView
+                                android:id="@+id/ckt_shipping"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:paddingBottom="5dp"
+                                android:text="Shipping"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/tvShippingAmount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="end"
+                                android:padding="5dp"
+                                android:text="₹ 0.00"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:layout_below="@+id/ckt_shipping_lay"
+                            android:background="#c0c0c0" />
+
+                        <LinearLayout
+                            android:id="@+id/ckt_payable_lay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ckt_shipping_lay"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:weightSum="4">
+
+                            <TextView
+                                android:id="@+id/ckt_payable"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:paddingBottom="5dp"
+                                android:text="Payable"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvPayableAmount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="end"
+                                android:padding="5dp"
+                                android:text="₹ 0.00"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ckt_del_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:contentPadding="3dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/ckt_del_title"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Payment Method"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/ckt_del_lay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ckt_del_title"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            android:weightSum="4">
+
+                            <RadioGroup
+                                android:id="@+id/radioPaymentOption"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <RadioButton
+                                    android:id="@+id/radioCOD"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:buttonTint="@color/Button_color"
+                                    android:checked="true"
+                                    android:text="COD" />
+
+                                <RadioButton
+                                    android:id="@+id/radioOnline"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:buttonTint="@color/Button_color"
+                                    android:clickable="true"
+                                    android:text="Online Payment"
+                                    android:visibility="gone" />
+                            </RadioGroup>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ckt_addr_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:contentPadding="3dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/ckt_addr_title"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Address"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:id="@+id/ckt_addr_lay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ckt_addr_title"
+                            android:orientation="horizontal"
+                            android:paddingLeft="10dp"
+                            android:weightSum="5">
+
+                            <TextView
+                                android:id="@+id/ckt_address_set_text"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="select Address" />
+
+                            <ImageView
+                                android:id="@+id/ivSelectAddress"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:src="@drawable/select_addr" />
+
+                            <ImageView
+                                android:id="@+id/ivAddAddress"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:src="@drawable/add_addr" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ckt_time_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    card_view:cardCornerRadius="2dp"
+                    card_view:contentPadding="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:id="@+id/ckt_time_title"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Scheduled Delivery"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/ckt_delinery_time_rg"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:weightSum="4">
+
+                            <RadioButton
+                                android:id="@+id/ckt_delivery_radio_now"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/Button_color"
+                                android:text="Now (Within 2 hours)" />
+
+                            <RadioButton
+                                android:id="@+id/ckt_delivery_radio_today"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/Button_color"
+                                android:text="Today" />
+
+                            <RadioButton
+                                android:id="@+id/ckt_delivery_radio_tomorrow"
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/Button_color"
+                                android:text="Tomorrow" />
+
+                        </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/activity_horizontal_margin"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/selecteddateidhead"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".75"
+                                android:text="Selected Date :" />
+
+                            <TextView
+                                android:id="@+id/selecteddateid"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.25"
+                                android:text="" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight=".75"
+        android:background="@color/primary"
+        android:text="PLACE ORDER"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

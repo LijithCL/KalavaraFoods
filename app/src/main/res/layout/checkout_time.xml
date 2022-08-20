@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.cart.CheckoutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="10">
+
+        <RadioGroup
+            android:id="@+id/ckt_two_rg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <RadioButton
+                android:id="@+id/ckt_delivery_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="12:00 PM to 02:00 PM"
+                android:textColor="#000000"/>
+
+            <RadioButton
+                android:id="@+id/ckt_delivery_5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="06:00 PM to 08:00 PM"
+                android:textColor="#000000"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+</RelativeLayout>

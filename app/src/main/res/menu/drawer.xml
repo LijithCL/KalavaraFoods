@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navitem_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/navitem_orderlist"
+        android:icon="@drawable/nav_mycart_icon"
+        android:title="My Cart" />
+    <item
+        android:id="@+id/navitem_notification"
+        android:icon="@drawable/nav_notification_icon"
+        android:title="Notification" />
+    <item
+        android:id="@+id/navitem_contactus"
+        android:icon="@drawable/nav_contact_us_icon"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/navitem_rateus"
+        android:icon="@drawable/nav_rate_us_icon"
+        android:title="Rate Us" />
+</group>
+
+<item android:title="Communicate">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share_icon"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_login_icon"
+                android:title="Logout" />
+        </group>
+    </menu>
+</item>
+</menu>
